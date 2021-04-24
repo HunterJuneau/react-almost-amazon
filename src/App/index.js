@@ -13,11 +13,7 @@ function App() {
     <div className='App'>
       <h2>INSIDE APP COMPONENT</h2>
       <div>
-        <button
-          id='this-button'
-          className='btn btn-info'
-          onClick={handleClick}
-        >
+        <button id='this-button' className='btn btn-info' onClick={handleClick}>
           I am THIS button
         </button>
       </div>
